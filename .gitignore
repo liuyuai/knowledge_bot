@@ -1,0 +1,20 @@
+# 密钥（绝对不能提交）
+.env
+
+# 私有知识库文档（不上传）
+docs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 运行时数据
+chroma_db/
+embed_cache.json
+app.log
+bad_feedback.jsonl
+
+# 编辑器
+.vscode/
+.idea/
